@@ -6,7 +6,7 @@ I tried to leave enough breadcrumbs for developers to take the concept and run w
 
 ## Start Here
 
-[https://dwayneparton.github.io/journal/2023/02/05/wordpress-to-markdown/]
+https://dwayneparton.github.io/journal/2023/02/05/wordpress-to-markdown/
 
 This explains my process, and is a blog written as I was solving the problem. It's more stream of thought and I hope it will show you the process of creation more than give you step by step instructions. Take it and build upon it.
 
@@ -18,10 +18,12 @@ This explains my process, and is a blog written as I was solving the problem. It
 
 ## Folder Structure
 
-|- .build - generator scripts
-|-- .build/dist - generated scripts
-|- .github - github actions
+    │
+    ├── .build - generator scripts
+    ├──.build/dist - generated scripts
+    ├──.github - github actions
+    │
 
 ## Why the dotFolder structure?
 
-dot Files are automatically ignored by obsidian.md and have no affect on the performance.
+dot Files are automatically ignored by obsidian.md and have no affect on the performance. Learn more by [reading here](https://dwayneparton.github.io/journal/2023/02/05/wordpress-to-markdown/).
