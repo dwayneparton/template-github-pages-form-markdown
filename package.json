@@ -1,0 +1,31 @@
+{
+    "name": "dwayneparton.com",
+    "version": "1.0.0",
+    "description": "Markdown Blog",
+    "main": ".build/index.js",
+    "scripts": {
+        "start": "node .build/index.js",
+        "build": "node .build/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dwayneparton/journal.git"
+    },
+    "keywords": [
+        "website"
+    ],
+    "author": "Dwayne Parton",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dwayneparton/journal/issues"
+    },
+    "homepage": "https://github.com/dwayneparton/journal#readme",
+    "dependencies": {
+        "fast-glob": "^3.2.12",
+        "front-matter": "^4.0.2",
+        "handlebars": "^4.7.7",
+        "highlight.js": "^11.7.0",
+        "marked": "^4.2.12"
+    }
+}
